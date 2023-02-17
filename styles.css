@@ -1,3 +1,77 @@
 * {
   font-family: 'Red Hat Display', sans-serif;
+  border: solid 1px blue;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+/*Father container styles*/
+.order-preview-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*Child #1 container styles*/
+.img-child-container {
+  width: 100%;
+}
+
+.img-child-container img {
+  width: 100%;
+  height: auto;
+}
+
+/*Child #2 container styles*/
+.info-child-container {
+  padding: 15px;
+} 
+
+.info-child-container h1 {
+  
+}
+
+.info-child-container p {
+  padding: 0px 20px;
+} 
+
+/*Child #3 container styles*/
+.preview-plan-child-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.preview-plan-child-container div {
+  flex: 1;
+}
+
+.preview-plan-child-container img {
+  margin-left: 20px;
+}
+
+.preview-plan-child-container p { 
+  margin: 0;
+  margin-left: -120px;
+
+}
+
+.preview-plan-child-container span {
+  align-self: flex-end;
+}
+
+/*Child #4 container styles*/
+.pay-cancel-child-container {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
 }
